@@ -1,0 +1,12 @@
+age="21"
+course_fee="499.50"
+attempts=3
+age_int=int(age)
+course_fee_float=float(course_fee)
+attempts_str=str(attempts)
+print(age_int)
+print(type(age_int))
+print(course_fee_float)
+print(type(course_fee_float))
+print(attempts_str)
+print(type(attempts_str))
