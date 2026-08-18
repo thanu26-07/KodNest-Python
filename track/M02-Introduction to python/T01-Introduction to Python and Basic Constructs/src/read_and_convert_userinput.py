@@ -1,0 +1,7 @@
+name=input()
+age=int(input())
+rating=float(input())
+print(f"Student: {name}")
+print(f"age: {age}")
+print(f"rating: {rating}")
+print(type(name),type(age),type(rating), sep='\n')
