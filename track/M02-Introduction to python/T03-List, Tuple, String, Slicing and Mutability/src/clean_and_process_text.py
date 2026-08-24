@@ -1,0 +1,11 @@
+sentence=input()
+print("Cleaned:",sentence.strip())
+new=sentence.strip().lower().replace(".","")
+print("Normalized:",new)
+normal=new.split()
+print("words:",normal)
+print("Slug:","-".join(normal))
+print("Uppercase:",new.upper())
+print("Python Position:",new.find("python"))
+
+ew=sentence.strip().lower().replace(".","")
