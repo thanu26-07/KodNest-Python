@@ -19,7 +19,7 @@ student_id = int(input().strip())
 name = input().strip()
 course = input().strip()
 experience = int(input().strip())
-skills = input().strip().split()
+skills = input().split()
 
 # Create one StudentProfile object
 student1 = StudentProfile(student_id, name, course, experience, skills)
